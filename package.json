@@ -6,12 +6,13 @@
   "type": "commonjs",
   "scripts": {
     "dev": "nodemon src/server.js",
+    "test": "jest --runInBand --coverage",
     "start": "node src/server.js"
   },
   "keywords": [
     "node",
     "express",
-    "mongodb",
+    "Postgresql",
     "swagger",
     "jwt",
     "order",
@@ -34,7 +35,9 @@
     "swagger-ui-express": "^5.0.0"
   },
   "devDependencies": {
+    "jest": "^30.2.0",
     "nodemon": "^3.0.1",
-    "sequelize-cli": "^6.6.2"
+    "sequelize-cli": "^6.6.2",
+    "supertest": "^7.1.4"
   }
 }

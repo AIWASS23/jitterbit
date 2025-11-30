@@ -10,7 +10,7 @@ Order.init(
       allowNull: false,
     },
     value: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.FLOAT,
       allowNull: false,
     },
     creationDate: {
@@ -44,7 +44,7 @@ Item.init(
       allowNull: false,
     },
     price: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.FLOAT,
       allowNull: false,
     },
     // FK para Order
